@@ -1,0 +1,27 @@
+#menu {
+    list-style: none;
+}
+
+#introbox {
+border-style:ridge;
+text-align: center;
+}
+
+#introboxheader {
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#contentbox {
+border-style: ridge;
+
+}
+
+#contentheader {text-align: center;}

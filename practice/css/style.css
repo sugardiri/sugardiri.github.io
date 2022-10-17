@@ -1,0 +1,35 @@
+header {
+float:left;
+background-color: aquamarine;
+width:  40%;
+height: 100px;
+margin: 10px;
+padding: 10px;
+}
+
+nav {
+float: left;
+ background-color: aquamarine;
+width:  15%;
+height: 600px;
+margin: 10px;
+padding:10px;
+}
+
+section {
+ float: left;
+background-color: aquamarine;
+width:  50%;
+height: 600px;
+margin: 10px;
+padding: 10px;
+}
+
+footer  {
+width:  75x%;
+height: 100px;
+float: left;
+background-color: aquamarine;
+margin: 10px;
+padding: 10px;
+}

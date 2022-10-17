@@ -1,14 +1,21 @@
 #menu {
     list-style: none;
+   
+}
+
+#introboxcontent {
+    list-style: none;
+    text-align: left;
 }
 
 #introbox {
 border-style:ridge;
 text-align: center;
+float: right;
 }
 
 #introboxheader {
-    background-color: aqua;
+    background-color:aquamarine
 }
 
 a {
@@ -21,6 +28,8 @@ a:hover {
 
 #contentbox {
 border-style: ridge;
+background-color: aquamarine;
+float:left
 
 }
 

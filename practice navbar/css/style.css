@@ -1,0 +1,50 @@
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+li {
+    padding:10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+    padding: 10px;
+}
+
+nav {
+    background-color: gray;
+    padding: 10px;
+}
+
+/* #home {
+    margin-right: auto;
+} */
+
+/* Media Query
+
+@media only screen and (max-width: 768px {
+    ul  {
+        flex-direction: column;
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+
+
+
+    ul {
+
+        flex-direction: column;
+
+    }
+
+}
+

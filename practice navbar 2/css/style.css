@@ -1,5 +1,5 @@
 nav {
-    background-color: lavenderblush;
+    background-color: lightcoral;
     border-radius: 5px;
     text-align: center;
 }
@@ -37,9 +37,10 @@ a:hover {
 }
 
 a:link {
-    /*color:white */
-
-font-weight: 800;
+    color:  purple;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
 }
 
 .dropdown-menu {
@@ -50,4 +51,11 @@ font-weight: 800;
     border: 2px palevioletred;
     position: absolute;
     opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    border
+
+
 }

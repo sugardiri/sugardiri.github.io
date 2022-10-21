@@ -3,6 +3,11 @@ nav {
     border-radius: 5px;
 }
 
+
+h1 {
+    text-align: center;
+}
+
 ul {
     display: flex;
     justify-content: flex-start;

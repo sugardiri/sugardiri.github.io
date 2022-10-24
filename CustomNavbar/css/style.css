@@ -9,6 +9,12 @@ nav {
     color:  #eee;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #about {
@@ -70,7 +76,7 @@ a:hover {
     padding: 11px;
     border-radius: 5px; */
     cursor: pointer;
-    color: white;
+    background-color: white;
 }
 
 a:link {

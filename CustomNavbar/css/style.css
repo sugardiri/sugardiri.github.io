@@ -1,7 +1,7 @@
 nav {
     background-color: #eee;
     border-radius: 5px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -54,7 +54,7 @@ ul {
 
 body {
     background-color: lightslategray;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
@@ -70,6 +70,7 @@ a:hover {
     padding: 11px;
     border-radius: 5px; */
     cursor: pointer;
+    color: white;
 }
 
 a:link {
@@ -93,7 +94,7 @@ a:link {
     opacity: 1;
     border-style: ridge;
     background-color: lightgray;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media only screen and (max-width: 768px) {

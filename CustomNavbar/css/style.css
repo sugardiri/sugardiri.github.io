@@ -1,6 +1,10 @@
+body {
+    position: relative;
+    height: 500px;
+}
+
 nav {
     background-color: #eee;
-    border-radius: 5px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -9,8 +13,6 @@ nav {
     color:  #eee;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
 }
 
 h2 {
@@ -131,6 +133,12 @@ a:link {
     position: relative;
     animation-name: example;
     animation-duration: 4s;
+  }
+
+  p {
+    margin-right: 200px;
+    margin-left: 200px;
+    line-height: 20px;
   }
 
  

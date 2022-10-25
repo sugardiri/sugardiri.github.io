@@ -6,6 +6,10 @@ body {
 nav {
     background-color: #eee;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    margin-top: -10px;
+    width: 100%;
+   list-style: none;
 }
 
 
@@ -24,6 +28,9 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width:  20%;
+  padding: 50px;
+  padding-bottom: 10px;
+  padding-top: 50px;
 }
 
 #sushi2 {

@@ -4,6 +4,11 @@ table {
     float:center;
     width: 100%;
     }
+
+caption {
+
+        color: green;
+    }
     
 th {
         border: 1px  solid black;

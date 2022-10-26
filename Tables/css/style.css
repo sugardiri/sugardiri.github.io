@@ -1,0 +1,50 @@
+table {
+    border: 1px  solid black;
+    border-collapse: collapse;
+    float:center;
+    width: 100%;
+    }
+    
+th {
+        border: 1px  solid black;
+        border-collapse: collapse;
+        float:center;
+        background-color: green;
+        color:white;
+        }
+    
+td {
+            border: 1px  solid black;
+            border-collapse: collapse;
+            float:center;
+            }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+    
+#tworow {
+    background-color: #eee;
+    color:green;
+}
+
+#fourrow {
+    background-color: #eee;
+    color:green;
+}
+
+.full-table:hover .tdtable {
+    opacity: 1;
+    border-style: ridge;
+    background-color: lightskyblue;
+}
+
+.full-table:hover .tdtable2 {
+    opacity: 1;
+    border-style: ridge;
+    background-color: lightseagreen;
+}
+    

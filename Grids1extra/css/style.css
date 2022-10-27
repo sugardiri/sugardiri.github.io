@@ -13,8 +13,6 @@ nav {
     background-color: blueviolet;
     grid-area: Navbar;
     color: aliceblue;
-    margin-right:500px;
-    margin-left:500px;
 }
 
 p {

@@ -3,7 +3,7 @@ a {
 }   
 
 #mygrid {
-    border-style: outset ;
+    border-style: none ;
     display: grid;
     grid-template-columns: repeat (3, 1fr);
     grid-auto-rows: minmax(50px, auto);
@@ -29,7 +29,6 @@ header {
 
 content {
     grid-area: content;
-    text-align: column;
     background-color: #eee;
 }
 
@@ -40,7 +39,7 @@ footer {
 }
 
 #grid {
-    border-style: outset ;
+    border-style: none ;
     display: grid;
     grid-template-columns: repeat (3, 1fr);
     grid-auto-rows: minmax(50px, auto);
@@ -75,7 +74,7 @@ button {
 }
 
 #grid2 {
-    border-style: outset ;
+    border-style: none ;
     display: grid;
     grid-template-columns: repeat (3, 1fr);
     grid-auto-rows: minmax(50px, auto);
@@ -112,4 +111,9 @@ border-style: outset;
 
 #facebook {
     width: 300px;
+}
+
+#birthgender {
+    display: flex;
+    justify-content: center;
 }

@@ -65,10 +65,10 @@ button:hover
     border-radius: 5px;
     padding: 20px;
     background-color: #ccc;
-    display: block;
-    margin-block: 100px;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    border-style: outset;
 }
 
 h1 {

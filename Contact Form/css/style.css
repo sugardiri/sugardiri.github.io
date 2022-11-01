@@ -36,7 +36,7 @@ input [type=text], select, textarea
 
 
 
-button 
+#button 
    {
     color: white;
     background-color: blue;
@@ -79,8 +79,15 @@ p {
     text-align: center;
 }
 
-input:invalid[type = text] { 
+input:invalid [type=text] { 
     border: solid 2px red
 }
 
+input:invalid [type=email] { 
+    border: solid 2px red
+}
+
+input:invalid [type=message] { 
+    border: solid 2px red
+}
 

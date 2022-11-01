@@ -79,15 +79,15 @@ p {
     text-align: center;
 }
 
-input:invalid [type=text] { 
+input [type=text]:invalid  { 
     border: solid 2px red
 }
 
-input:invalid [type=email] { 
+input[type=email]:invalid  { 
     border: solid 2px red
 }
 
-input:invalid [type=message] { 
+input [type=message]:invalid  { 
     border: solid 2px red
 }
 

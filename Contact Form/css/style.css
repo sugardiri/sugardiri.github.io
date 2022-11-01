@@ -51,7 +51,7 @@ body
     background-color: gray;
     }
 
-input[type=submit]:hover
+#button:hover
 {
     color: black;
     background-color: lightskyblue;

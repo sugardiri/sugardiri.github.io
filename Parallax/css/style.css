@@ -219,3 +219,10 @@ footer h4 {
   font-weight: bold;
 }
 
+.collapseButton {
+  text-align: center;
+  border-style: outset;
+  background-color: lightgreen;
+  color:green;
+}
+

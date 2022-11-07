@@ -1,0 +1,65 @@
+#menu {
+    list-style: none;
+    padding-left: 0;
+    width: 10%;
+    clear:left;
+    float: left;
+    height:3800px;
+}
+
+
+#lornashore {
+    text-align: center;
+}
+
+
+.menu  {
+    float:right;
+    padding-right: 0;
+}
+
+
+#wikilogo {
+    float: left;
+}
+
+
+#introboxcontent {
+    list-style: none;
+    text-align: left;
+}
+
+#introbox {
+    border-style:ridge;
+    text-align: center;
+    float: right;
+    width: 30%;
+}
+
+
+#introboxheader {
+    background-color: #eee;
+    border-color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#contentbox {
+    border-style: ridge;
+    border-color: gray;
+    background-color: #eee;
+    float: left;
+    width: 10%;
+    padding:15px;  
+}
+
+
+#contentheader {
+    text-align: center;
+}

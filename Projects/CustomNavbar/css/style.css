@@ -1,0 +1,152 @@
+body {
+    position: relative;
+    height: 500px;
+}
+
+nav {
+    background-color: #eee;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    margin-top: -10px;
+    width: 100%;
+   list-style: none;
+}
+
+
+#content {
+    color:  #eee;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#about {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:  20%;
+  padding: 50px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  z-index: -1;
+}
+
+#sushi2 {
+    display: block;
+  margin-right: auto;
+  float: left;
+  width:  20%;
+}
+
+#sushi3 {
+    display: block;
+  margin-right: auto;
+  float: right;
+  width:  20%;
+}
+
+#sushi3 {
+    display: block;
+  float: center;
+  width:  20%;
+}
+
+
+h1 {
+    text-align: center;
+    color:  #eee;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+body {
+    background-color: lightslategray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+
+a:hover {
+    /* background-color: rgb (221, 105, 164);
+    padding: 11px;
+    border-radius: 5px; */
+    cursor: pointer;
+    background-color: white;
+}
+
+a:link {
+    color:  gray;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+    border: 2px gray;
+    position: absolute;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    border-style: ridge;
+    background-color: lightgray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+    ul {
+
+        flex-direction: column;
+
+    }
+
+}
+
+/* The animation code */
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  #about {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  p {
+    margin-right: 200px;
+    margin-left: 200px;
+    line-height: 20px;
+  }
+
+ 

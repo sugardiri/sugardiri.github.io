@@ -1,11 +1,11 @@
 /* Imports */
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-</style>;
 
-<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
-</style>
+
 
 /*~~~~~~ MAIN BRAND STYLE ~~~~~~~~*/
 
@@ -14,7 +14,7 @@
 
 /* typography: */
 body, main, footer, nav, header {
-  font-family: "monsterrat";
+  font-family: "Montserrat";
 }
 a {
   color:#192e55;
@@ -111,7 +111,7 @@ nav a:hover {
 .site_quote {
   font-size: 2em;
   text-align: right;
-  font-style: "montserrat";
+  font-style: "Montserrat";
   font-weight: 600;
   margin:0px;
   color: #000;
@@ -161,7 +161,7 @@ main {
 }
 .content-content {
   padding:20px;
-  font-family: "montserrat";
+  font-family: "Montserrat";
 }
 
 
@@ -179,7 +179,7 @@ footer {
   display:flex;
 }
 footer h4, footer h5, footer h6 {
-  font-family: "montserrat";
+  font-family: "Montserrat";
   margin:0;
 
 }
@@ -254,3 +254,6 @@ font-family: "lobster";
   color: #fff;
 }
 
+.carousel .carousel-indicators {
+  background-color: #000;
+}

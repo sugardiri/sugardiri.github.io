@@ -257,3 +257,10 @@ font-family: "lobster";
 .carousel .carousel-indicators {
   background-color: #000;
 }
+
+#coffee {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+}

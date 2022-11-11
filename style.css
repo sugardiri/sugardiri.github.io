@@ -9,18 +9,17 @@ h1 {
 
 .button
    {
-    color: white;
-    background-color: blueviolet;
+    color: blueviolet;
+    background-color: plum;
     border: none;
     text-align: center;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
+    width: 2490px;
     border-radius: 25px;
     padding: 20px;
-    font-size: 20px;
-    margin: 4px 2px;
-    border-radius: 25px;
+    font-size: 50px;
+    margin: 30px 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
    }
 
 .card-title {
@@ -35,6 +34,7 @@ h1 {
     "card1 card2 card3"
     "card4 card5 card6"
     "card7 card8 card9";
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container text-center1 {
@@ -67,7 +67,35 @@ h1 {
     font-size: 20px;
     margin: 4px 2px;
     border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
    }
+
+   /* Navbar */
+
+   nav {
+    background-color:  black;
+    padding: 10px;
+    font-weight: 600px;
+}
+
+   li {
+    padding:10px;
+    list-style: none;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
 
 
 

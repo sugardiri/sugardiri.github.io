@@ -12,19 +12,31 @@ lightboxContainer.classList.add('display');
 lightbox.scr = this.scr;
 }
 
-let coffeeImage = document.getElementById ('coffeeImage1');
+//set single variable to get all images from gallery
+let galleryImages = document.getElementsByClassName("galleryImage");
+
+//Create loop to cycle through images and run onclick event per image
+for (let i = 0; i < galleryImages.length; i++) {
+    let galleryImage = galleryImages [i];
+    galleryImage.onclick = openLightbox;
+}
+
+
+
+//Creat variable for image class
+//let coffeeImage = document.getElementById ('coffeeImage1');
 
 //When you click image, reference openLightBox function 
-coffeeImage.oneclick = openLightbox;
+//coffeeImage.oneclick = openLightbox;
 
 //Make function to make closer clickable
 function closeLightbox () {
     lightboxContainer.classList.remove ('display');
-    lightbox.scr = ""
+    lightbox.scr = "";
 }
 
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
+//lightboxCloser.onclick = closeLightbox;
+//lightboxBackground.onclick = closeLightbox;
 
 
 

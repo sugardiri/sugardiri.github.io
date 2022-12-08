@@ -14,19 +14,19 @@ lightbox.scr = this.scr;
 
 let coffeeImage = document.getElementById ('coffeeImage1');
 
+//When you click image, reference openLightBox function 
+coffeeImage.oneclick = openLightbox;
+
+//Make function to make closer clickable
+function closeLightbox () {
+    lightboxContainer.classList.remove ('display');
+    lightbox.scr = ""
+}
+
+lightboxCloser.oneclick = closeLightbox;
+lightboxBackground.oneclick = closeLightbox;
 
 
-//Function to Open lightbox
-
-//media MediaQueryList
-//how to conenct java ScriptProcessor
-//connect css framework
-//difference in line and block Elements
-//50 questions
-//making website second parent
-//bootstrap style guide 
-//any notes
-//parts of other projects
 
 
 

@@ -1,8 +1,8 @@
 //Variable for lightbox elements
 let lightboxContainer = document.getElementById ('lightboxContainer');
-let lightboxContainer = document.getElementById ('lightboxBackground');
+let lightboxBackground = document.getElementById ('lightboxBackground');
 let lightbox = document.getElementbyId ('lightbox');
-let lightbox = document.getElementId ('lightboxCloser');
+let lightboxCloser = document.getElementId ('lightboxCloser');
 
 //Function to open lightbox
 function openLightbox(){
@@ -23,8 +23,8 @@ function closeLightbox () {
     lightbox.scr = ""
 }
 
-lightboxCloser.oneclick = closeLightbox;
-lightboxBackground.oneclick = closeLightbox;
+lightboxCloser.onclick = closeLightbox;
+lightboxBackground.onclick = closeLightbox;
 
 
 

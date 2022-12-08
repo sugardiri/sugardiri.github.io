@@ -35,6 +35,13 @@ function closeLightbox () {
     lightbox.scr = "";
 }
 
+let close = document.getElementsByClassName ('closer');
+
+for (let i = 0; i < closers.length; i++) {
+    let closer = closers [1];
+    closer.onclick = closeLightbox;
+}
+
 //lightboxCloser.onclick = closeLightbox;
 //lightboxBackground.onclick = closeLightbox;
 

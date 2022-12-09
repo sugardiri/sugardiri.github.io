@@ -1,0 +1,64 @@
+ .svgface {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+    z-index: 1;
+    width: 20%;
+    height: 12px;
+    transform-origin: bottom center;
+    animation: stick-animation 3s infinite linear;
+  }
+  
+
+  @keyframes stick-animation {
+    0%,40% {
+      left: 50%;
+      top: 0%;
+      transform: translate(-50%, -100%);
+    }
+    50%,54% {
+      left: 50%;
+      top: 0%;
+      transform: translate(-50%, -100%);
+    }
+    59% {
+      left: 50%;
+      top: 0%;
+      transform: translate(-50%, -100%);
+    }
+    62% {
+      left: 50%;
+      top: 0%;
+      transform: rotateZ(-15deg) translate(-50%, -100%);
+    }
+    65% {
+      left: 50%;
+      top: 0%;
+      transform: rotateZ(15deg) translate(-50%, -100%);
+    }
+    70% {
+      left: 50%;
+      top: 0%;
+      transform: rotateZ(-5deg) translate(-50%, -100%);
+    }
+    72% {
+      left: 50%;
+      top: 0%;
+      transform: rotateZ(5deg) translate(-50%, -100%);
+    }
+    74%,84% {
+      left: 50%;
+      top: 0%;
+      transform: rotateZ(0deg) translate(-50%, -100%);
+    }
+    85% {
+      transform: rotateZ(180deg) translate(0%, 120%);
+    }
+    92% {
+      left: 50%;
+      top: 0%;
+      transform: translate(-50%, -100%);
+    }
+  }
+

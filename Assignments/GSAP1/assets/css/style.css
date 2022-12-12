@@ -15,7 +15,7 @@ height: 100px;
 width: 100px;
 background-color: rgb(241, 166, 205);
 margin-top:rgb(0, 0, 0);
-border-radius: 5%;
+border-radius: 100%;
 }
 
 .column {
@@ -28,4 +28,10 @@ border-radius: 5%;
 
 .text-box {
 width: 70%;
+}
+
+.image {
+  margin: auto;
+  display: block;
+  width: 100px;
 }

@@ -12,14 +12,22 @@ gsap.from(".chucked", {
 // text animation
 gsap.from (".headline", {
     duration: 2.5,
-    stagger: 0.3,
+    stagger: 2,
     opacity: 0,
 });
 
 //image animation
 gsap.from (".image", {
     duration: 3,
-    rotation: 20,
+    rotation: 100,
     opacity: 0,
+    stagger: 2,
+});
+
+//paragraph animation
+gsap.from (".paragraph", {
+    duration: 3,
+    opacity: 0,
+    stagger: 2,
 });
 

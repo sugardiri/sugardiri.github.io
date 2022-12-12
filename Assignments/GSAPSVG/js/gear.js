@@ -9,7 +9,7 @@
         });
 
         // Make a gsap method to have the title text start from above the clipping circle.
-        gsap.from(".g",{
+        gsap.from("#main-text",{
             duration: 4,
             delay: 2,
             y: -300,
@@ -43,11 +43,15 @@
 
         // Bonus: identify the outer ring of the logo (inside the gear shape) by placing an ID on that svg path.
         // Make a gsap method to make it periodically "pop" bin and out of place.
-
-        gsap.from(".g",{
-            duration: 4,
-            delay: 2,
-            y: -300,
-            ease: "expo",
-            stagger: 0.5,
+        gsap.from(".animation",{
+            duration: 1,
+            transformOrigin:"50% 50%",
+            delay: 1,
+            repeatDelay: 1.10,
+            scale: 1.05,
+            ease: "bounce",
+            x: -50,
+            y: -50,
+            repeat: -1,
         });
+      

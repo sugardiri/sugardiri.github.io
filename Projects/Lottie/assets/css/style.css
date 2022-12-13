@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-areas: "card1 card2 card3"
+    "card1 card2 card3"
+    "card1 card2 card3";
+    border-style: outset;
+}
+
+#animationMonster{
+    background-color: pink;
+    grid-area: card1;
+    border-style: outset;
+    text-align: center;
+}
+
+#animationToggle {
+    background-color: pink;
+    grid-area: card2;
+    border-style: outset;
+    text-align: center;
+}
+
+
+#chickanimation{
+    background-color: pink;
+    grid-area: card3;
+    border-style: outset;
+    text-align: center;
+}

@@ -1,3 +1,16 @@
+/* body */
+
+body 
+    {
+    background-color: black;
+    color:lightgray;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
 /* Navbar */
 
 ul {
@@ -107,16 +120,6 @@ nav {
     font-style: arial;
     }
 
-body 
-    {
-    background-color: black;
-    color:lightgray;
-    font-family: arial;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    }
 
 #button:hover
 {
@@ -162,8 +165,91 @@ input[type=message]:valid  {
     text-decoration: underline;
 }
 
+/* gallery nav */
+
+/* Navbar */
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+li {
+    padding:10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav2 {
+    padding: 10px;
+    font-family: arial;
+    font-weight: 600px;
+}
+
+.trending {
+    color: white;
+    block-size: 50px;
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius:s 4px;
+    cursor: pointer;
+    font-style: arial;
+    font-size: xx-large;
+}
+
+.trending:hover {
+    text-decoration: underline;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.newondisney {
+    color: white;
+    block-size: 50px;
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: arial;
+    font-size: xx-large;
+}
+
+.newondisney:hover {
+    text-decoration: underline;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.comingsoon {
+    color: white;
+    block-size: 50px;
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: arial;
+    font-size: xx-large;
+}
+
+.comingsoon:hover {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+
 
 /* Gallery */
+
 
 #gallery {
     display: flex;
@@ -187,4 +273,112 @@ input[type=message]:valid  {
       height: auto;
       width: 100%;
     }
+  }
+
+  /* plans */
+
+  #plangrid {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+    "plan1 plan2 "
+    "plan1 plan2"
+    "plan1 plan2";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#plan1{
+  grid-area: plan1;
+    color: white;
+    block-size: 100%;
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: arial;
+    border: 2px solid blue;
+  background-color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#plan2
+{
+    grid-area: plan2;
+    color: white;
+    block-size: 100%;
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: arial;
+    border: 2px solid blue;
+  background-color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+  /* footer */
+
+  /* Footer ~~~~~~~ */
+.footer-hat {
+    height:30px;
+    background-color: #fff;
+    border-top:2px solid #e1a177;
+  }
+  footer {
+    background-color: #fff;
+    padding:25px;
+    border-top:2px dashed #e1a177;
+    box-sizing: border-box;
+    display:flex;
+  }
+  footer h4, footer h5, footer h6 {
+    font-family: "Montserrat";
+    margin:0;
+  
+  }
+  .footer-left {
+    flex: 1;
+    margin-bottom:50px;
+  }
+  .footer-right {
+    flex:3;
+    margin-left:25px;
+  }
+  footer h4 {
+    font-size: 2em;
+  }
+  .footer-right h6 {
+    font-size: 1.5em;
+  }
+  .footer-right p {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .footer-feet {
+    background-color: #fff;
+    height:40px;
+    border-top: 2px dashed #e1a177;
+  
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    font-size: 8pt;
+  }
+  
+  .footer-feet p {
+    margin:0;
   }

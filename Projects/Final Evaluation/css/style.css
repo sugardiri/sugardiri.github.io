@@ -1,0 +1,190 @@
+/* Navbar */
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+li {
+    padding:10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding: 10px;
+    font-family: arial;
+    font-weight: 600px;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+.signupnow {
+    color: white;
+    background-color: blue;
+    block-size: 50px;
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: arial;
+}
+
+.signupnow:hover {
+    background-color: lightgray;
+    color:black;
+    padding: 10px;
+}
+
+.login {
+    color: white;
+    block-size: 50px;
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: arial;
+    border: 2px solid white;
+  background-color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login:hover {
+    background-color: lightgray;
+    color:black;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    ul {
+        flex-direction: column;
+    }
+}
+
+/* FORM CSS */
+
+#email
+   {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-style: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    }
+
+#button 
+   {
+    color: white;
+    background-color: blue;
+    block-size: 50px;
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: arial;
+    }
+
+body 
+    {
+    background-color: black;
+    color:lightgray;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+#button:hover
+{
+    color: black;
+    background-color: lightskyblue;
+    font-style: arial;
+}
+
+label {
+    text-align: center;
+    color: gray;
+}
+
+input[type=text]:invalid  { 
+    border: solid 2px red;
+}
+
+input[type=email]:invalid  { 
+    border: solid 2px red;
+}
+
+input[type=message]:invalid  { 
+    border: solid 2px red;
+}
+
+input[type=text]:valid  { 
+    border: solid 2px green;
+}
+
+input[type=email]:valid  { 
+    border: solid 2px green;
+}
+
+input[type=message]:valid  { 
+    border: solid 2px  green;
+}
+
+#planoptions {
+    text-decoration: underline;
+}
+
+#termsapply {
+    text-decoration: underline;
+}
+
+
+/* Gallery */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  #gallery img {
+    height: 200px;
+    margin: 12px;
+    flex: 1 0 auto;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: opacity 0.25s, transform 0.25s;
+  }
+
+  @media screen and (max-width: 480px) {
+    #gallery img {
+      height: auto;
+      width: 100%;
+    }
+  }

@@ -331,54 +331,15 @@ a {
   /* footer */
 
   /* Footer ~~~~~~~ */
-.footer-hat {
-    height:30px;
-    background-color: #fff;
-    border-top:2px solid #e1a177;
-  }
   footer {
-    background-color: #fff;
     padding:25px;
-    border-top:2px dashed #e1a177;
+    width: 500px;
     box-sizing: border-box;
     display:flex;
   }
-  footer h4, footer h5, footer h6 {
-    font-family: "Montserrat";
-    margin:0;
   
-  }
   .footer-left {
     flex: 1;
     margin-bottom:50px;
   }
-  .footer-right {
-    flex:3;
-    margin-left:25px;
-  }
-  footer h4 {
-    font-size: 2em;
-  }
-  .footer-right h6 {
-    font-size: 1.5em;
-  }
-  .footer-right p {
-    margin-left: 15px;
-    margin-top: 10px;
-  }
-  
-  .footer-feet {
-    background-color: #fff;
-    height:40px;
-    border-top: 2px dashed #e1a177;
-  
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:10px;
-    font-size: 8pt;
-  }
-  
-  .footer-feet p {
-    margin:0;
-  }
+

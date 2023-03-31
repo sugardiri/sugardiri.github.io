@@ -63,3 +63,51 @@ a:hover {
 #contentheader {
     text-align: center;
 }
+
+/* Table */
+
+table {
+    border: 1px  solid black;
+    border-collapse: collapse;
+    float:center;
+    }
+
+    th {
+        border: 1px  solid black;
+        border-collapse: collapse;
+        float:center;
+        background-color: #a2a9b1;
+        color: black;
+        }
+    
+td {
+            border: 1px  solid black;
+            border-collapse: collapse;
+            float:center;
+            }
+
+ #onerow {
+            background-color: #f8f9fa;
+               }
+               
+
+#tworow {
+             background-color: #f8f9fa;
+            }
+
+#threerow {
+            background-color: #f8f9fa;
+               }            
+            
+ #fourrow {
+            background-color: #f8f9fa;
+            }
+
+.tdtable {
+                text-align: center;
+            }
+
+
+            
+    
+            

@@ -1,3 +1,43 @@
+/* Introbox */
+
+#introbox {
+    text-align: center;
+    float: right;
+    width: 30%;
+}
+
+
+/* Table */
+
+table {
+    border: 1px  solid black;
+    border-collapse: collapse;
+    float:center;
+    }
+
+    th {
+        border: 1px  solid black;
+        border-collapse: collapse;
+        float:center;
+        background: linear-gradient(to bottom, #ffb6c1 0%, #cbc3e3 97%);
+        color: black;
+        }
+    
+td {
+            border: 1px  solid black;
+            border-collapse: collapse;
+            float:center;
+            }
+
+ .tdtabletitle {
+    background-color: #ddd;
+               }
+
+.tabcontent {
+    background-color: #ddd;
+                }
+
+               
 .navbar {
     font-weight: bold;
 }
@@ -13,12 +53,11 @@
 }
 
 #profilepic {
-    border-radius: 50%;
-    width: 300px;
-    display: block;
+     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+  border-radius: 50%;S
     
 }
 
@@ -116,18 +155,3 @@ ul li{
     display: inline-block;
 }
 
-
-  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}

@@ -1,0 +1,164 @@
+/*CONTACT ME FORM CSS*/
+
+/*Body and Navbar*/
+
+#body {
+    color: #A020F0;
+    background-color: #CBC3E3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+              
+.navbar {
+    font-weight: bold;
+}
+
+/*Hero*/
+
+.site-hero {
+    height: 50vh;
+    background-image: url("../assets/images/space.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.hero-text {
+    font-weight: 300;
+    color: #A020F0 ;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffb6c1 0%, #cbc3e3 97%);
+    padding: 50px;
+    border-radius: 10%;
+}
+
+.headers {
+    font-family: "manteiga-gorda", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Contact Form*/
+
+input [type=text], select, textarea
+   {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+   }
+
+#name
+   {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+
+#email
+   {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+
+
+
+#button 
+   {
+    color: white;
+    background-color: blue;
+    block-size: 50px;
+    width: 80px;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+#button:hover
+{
+    color: black;
+    background-color: lightskyblue;
+}
+
+
+#container {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ccc;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+input[type=text]:invalid  { 
+    border: solid 2px red;
+}
+
+input[type=email]:invalid  { 
+    border: solid 2px red;
+}
+
+input[type=message]:invalid  { 
+    border: solid 2px red;
+}
+
+input[type=text]:valid  { 
+    border: solid 2px green;
+}
+
+input[type=email]:valid  { 
+    border: solid 2px green;
+}
+
+input[type=message]:valid  { 
+    border: solid 2px  green;
+}
+
+/*Footer*/
+
+#info{
+    margin-top: 5em;
+    padding: 5em;
+}
+
+#info {
+    background: linear-gradient(to bottom, #ffb6c1 0%, #cbc3e3 97%);
+}
+
+#latestpost {
+    background: linear-gradient(to bottom, #cbc3e3 0%, #cbc3e3 97%);
+    border-color: #A020F0 ;
+}
+
+#latestpost2 {
+    background: linear-gradient(to bottom, #cbc3e3 0%, #cbc3e3 97%);
+    border-color: #A020F0 ;
+}
+
+#latestpost3 {
+    background: linear-gradient(to bottom, #cbc3e3 0%, #cbc3e3 97%);
+    border-color: #A020F0 ;
+}

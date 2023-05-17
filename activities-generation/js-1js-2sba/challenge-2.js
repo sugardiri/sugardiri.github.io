@@ -21,11 +21,31 @@ const itemPrice = function(item){
         return "All entries must be a string"
     }
 
+    let cost = ""
     switch(item){
-        
+        case "computer":
+            cost ="$500";
+            break;
+        case "mouse":
+            cost ="$10";
+            break;
+        case "tablet":
+            cost ="$250";
+            break;
+        case "case":
+            cost ="$25";
+            break;
+        case "router":
+                cost ="$100";
+                break;
+            default:
+                return "That item is not available";
+
     }
+
+    return cost;
 }
 
-let output = itemPrice("Hello")
+let output = itemPrice("ROUTER")
 
 console.log(output);

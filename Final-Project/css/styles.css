@@ -1,0 +1,81 @@
+/*NavBar 1*/
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+li {
+    padding:10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #c579fc;
+    padding: 10px;
+}
+
+nav {
+    background-color: #A126FB;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+    ul {
+
+        flex-direction: column;
+
+    }
+
+}
+
+/*Navbar 1 Buttons*/
+
+#free-delivery {
+    margin-right: auto;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+#free-delivery:hover {
+    background-color: #c579fc;
+    padding: 10px;
+}
+
+#sign-in, #cart, #about-us {
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    border-style: solid;
+    border-color: antiquewhite;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#sign-in:hover, #cart:hover, #about-us:hover {
+    background-color: #c579fc;
+    padding: 10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+
+/*NavBar 1 icons*/
+
+#twitter, #instagram, #facebook, #user {
+    color: antiquewhite;
+}
+
+
+/*font-family: 'Montserrat', sans-serif;*/

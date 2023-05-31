@@ -1,6 +1,6 @@
 /*NavBar 1*/
 
-ul {
+#list1 {
     display: flex;
     justify-content: flex-end;
     padding: 10px;
@@ -20,7 +20,7 @@ a:hover {
     padding: 10px;
 }
 
-nav {
+#nav1 {
     background-color: #A126FB;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -77,5 +77,56 @@ nav {
     color: antiquewhite;
 }
 
+/*Navbar 2*/
+
+#list2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#logo_nav2 {
+    margin-right: auto;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    border-style: dotted;
+    border-color: antiquewhite;
+}
+
+#text_nav2 {
+    color: #c579fc;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.search-bar-class {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    padding: 60px;
+    color: #c579fc;
+}
+
+input.search-bar-input {
+    background-color: #c579fc;
+}
+
+::placeholder {
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+  }
+
+  input, select, textarea{
+    color: antiquewhite;
+}
+
+button {
+    background-color: #A126FB;
+}
 
 /*font-family: 'Montserrat', sans-serif;*/

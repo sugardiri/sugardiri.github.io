@@ -12,13 +12,24 @@ li {
 }
 
 a {
-    text-decoration: none;
+    color: antiquewhite;
 }
 
-a:hover {
+a:link { text-decoration: none;
+ }
+
+
+a:visited { text-decoration: none; 
+}
+
+
+a:hover { text-decoration: none; 
     background-color: #c579fc;
     padding: 10px;
-}
+    color: antiquewhite;}
+
+
+a:active { text-decoration: none; }
 
 #nav1 {
     background-color: #A126FB;
@@ -26,6 +37,8 @@ a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600px;
 }
+
+/*media*/
 
 @media only screen and (max-width: 768px) {
 
@@ -101,6 +114,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     vertical-align: middle;
+    font-size: larger;
 }
 
 .search-bar-class {
@@ -129,4 +143,82 @@ button {
     background-color: #A126FB;
 }
 
+/*Navbar 3*/
+
+#nav3 {
+    background-color: #A126FB;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+}
+
+#list3 {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #A126FB;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+}
+
+#footer-nav {
+    background-color: #A126FB;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+}
+
+#footer-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-areas: "footer-column-1 footer-column-2 footer-column-3"
+    "footer-column-1 footer-column-2 footer-column-3"
+    "footer-column-1 footer-column-2 footer-column-3";
+}
+
+#footer-column-1{
+    grid-area: footer-column-1;
+    text-align: center;
+}
+
+#footer-column-2{
+    grid-area: footer-column-2;
+    text-align: center;
+}
+
+#footer-column-3{
+    grid-area: footer-column-3;
+    text-align: center;
+}
+
+#footer-ul {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    *font: bold 12px Sans-Serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: antiquewhite;
+    color:  #A126FB;
+    padding: 5px 10px;
+    margin: 0 0 10px 0;
+    writing-mode: vertical-rl;
+    display: inline-block;
+  }
+
+  
+    
 /*font-family: 'Montserrat', sans-serif;*/

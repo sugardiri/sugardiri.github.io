@@ -44,7 +44,7 @@ a:active { text-decoration: none; }
 
 
 
-    ul {
+    ul,footer, article {
 
         flex-direction: column;
 
@@ -278,7 +278,45 @@ h5 {
     color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding-left: 50px;
 }
+
+              /*Homepage Hero*/
+
+               .hero-image {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1565695951564-007d8f297e48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80');
+                height: 50%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+
+            .hero-text {
+                text-align: center;
+                color: antiquewhite;
+              }
+
+              .hero-button {
+                color: antiquewhite;
+                border-color: antiquewhite;
+              }
+
+            
+            input.hero-search-bar {
+                background-color: #c579fc;
+                font-family: 'Montserrat', sans-serif;
+                border-color: antiquewhite;
+            }
+
+            #ocassion {
+                background-color: #c579fc;
+                font-family: 'Montserrat', sans-serif;
+                border-color: antiquewhite;
+            }
+
+           
+              
 
   
     

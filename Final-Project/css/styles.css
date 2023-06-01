@@ -160,6 +160,56 @@ button {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*About Us Article Content*/
+
+#article-about-us {
+    color: #A126FB;
+}
+
+#image-about-us {
+    border-style: dotted;
+    border-color: antiquewhite;
+    padding: 10px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-us-header {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#article-container {
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-areas: "section-1 section-2"
+    "section-1 section-2 "
+    "section-1 section-2 ";
+}
+
+#section-1{
+    grid-area: section-1;
+   padding-left: 500px;
+}
+
+#section-2{
+    grid-area: section-2;
+    text-align:start;
+    padding-bottom: 50px;
+    padding-right: 500px;
+}
+
+#profile-picture {
+    border-style: dotted;
+    border-color: antiquewhite;
+    padding: 10px;
+}
+
+
 /*Footer*/
 
 footer {
@@ -167,6 +217,8 @@ footer {
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600px;
+    display: flex;
+    justify-content:space-evenly;
 }
 
 #footer-nav {
@@ -174,6 +226,7 @@ footer {
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600px;
+    text-align: center;
 }
 
 #footer-container {
@@ -187,11 +240,13 @@ footer {
 #footer-column-1{
     grid-area: footer-column-1;
     text-align: center;
+    padding-right: 500px;
 }
 
 #footer-column-2{
     grid-area: footer-column-2;
     text-align: center;
+    padding-right: 500px;
 }
 
 #footer-column-3{
@@ -215,9 +270,15 @@ h5 {
     color:  #A126FB;
     padding: 5px 10px;
     margin: 0 0 10px 0;
-    writing-mode: vertical-rl;
+    /*writing-mode: vertical-rl;*/
     display: inline-block;
   }
+
+  #footer-author {
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 
   
     

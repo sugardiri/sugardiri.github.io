@@ -130,7 +130,9 @@
 
    <!-- Form -->
 
-   <form is="cart-form">
+   <form id="cartform">
+
+    <div>
 
     <label for="balloons">Balloons</label>
     <input id="balloons" type="number" name="balloons" required>
@@ -145,18 +147,26 @@
     <br>
 
     <label for="stuffed-toy">Stuffed Toy</label>
-    <input id="stuffed-toy" type="number" name="stuffed-toy" required>
+    <input id="stuffedtoy" type="number" name="stuffed-toy" required>
     <br>
 
-    <label for="coffee-tea">Coffee</label>
-    <input id="coffee-tea" type="number" name="coffee-tea" required>
+    <label for="coffee">Coffee</label>
+    <input id="coffee" type="number" name="coffee" required>
     <br>
 
-    <label for="delivery-date">Delivery Date</label>
-    <input id="delivery-date" type="calendar" name="delivery-date" required>
+    <label for="date">Delivery Date</label>
+    <input id="date" type="text" name="date" required>
     <br>
 
    </form>
+
+   <input type="submit" value="Submit" id="button">
+
+    </div>
+
+       <div id="user">
+
+    </div>
      
     <!-- Footer -->
 
@@ -209,7 +219,9 @@
     
     </footer>
 
-    
+     <!--JavaScript script -->
+  <script src="posts1script.js"></script>
+
 </body>
 
 </html>

@@ -34,8 +34,8 @@ a:active { text-decoration: none; }
 #nav1 {
     background-color: #A126FB;
     padding: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*media*/
@@ -302,7 +302,6 @@ h5 {
                 border-color: antiquewhite;
               }
 
-            
             input.hero-search-bar {
                 background-color: #c579fc;
                 font-family: 'Montserrat', sans-serif;
@@ -316,8 +315,57 @@ h5 {
             }
 
            
-              
 
+        /*cards*/
+
+        h1 {
+            color: #c579fc;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .card {
+           
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            color: #c579fc;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+          }
+     
+          .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            padding: 10px;
+        }
+          
+          #card-list {
+            padding: 2px 16px;
+          }
+
+          .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+          }
+
+          .row {margin: 0 100px;
+        }
+
+          .flower-image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+
+         
   
     
 /*font-family: 'Montserrat', sans-serif;*/

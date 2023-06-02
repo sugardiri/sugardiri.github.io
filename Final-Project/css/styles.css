@@ -365,7 +365,7 @@ h5 {
             width: 50%;
           }
 
-         /*Cart Page Posts1*/
+         /*Cart Page Posts1 Form*/
 
          #balloons, #chocolates, #snacks, #stuffedtoy, #coffee, #date {
             background-color: #c579fc;
@@ -384,5 +384,9 @@ h5 {
             color: #A126FB;
             font-family: 'Montserrat', sans-serif;
           }
+
+           /*Cart Page Posts1 CSS*/
+           
+          
     
 /*font-family: 'Montserrat', sans-serif;*/

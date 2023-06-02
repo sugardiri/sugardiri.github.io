@@ -366,7 +366,23 @@ h5 {
           }
 
          /*Cart Page Posts1*/
-         
+
+         #balloons, #chocolates, #snacks, #stuffedtoy, #coffee, #date {
+            background-color: #c579fc;
+                font-family: 'Montserrat', sans-serif;
+                border-color: antiquewhite;
+         }
   
+         #cartbutton {
+            color: antiquewhite;
+            border-color: antiquewhite;
+            background-color:  #A126FB;
+            border-radius: 5px;
+          }
+
+          #user, #cartform {
+            color: #A126FB;
+            font-family: 'Montserrat', sans-serif;
+          }
     
 /*font-family: 'Montserrat', sans-serif;*/

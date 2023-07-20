@@ -393,6 +393,9 @@ table {
     border-collapse: collapse;
     float:center;
     color: #A126FB;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
     }
 
     th {
@@ -433,7 +436,7 @@ td {
 
 .tdtable {
                 text-align: center;
-                color: #A126FB;
+                
             }
 
 

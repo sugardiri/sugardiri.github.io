@@ -384,6 +384,61 @@ h5 {
             color: #A126FB;
             font-family: 'Montserrat', sans-serif;
           }
+
+          
+/* Table */
+
+table {
+    border: 1px  solid black;
+    border-collapse: collapse;
+    float:center;
+    color: #A126FB;
+    }
+
+    th {
+        border: 1px  solid black;
+        border-collapse: collapse;
+        float:center;
+        background-color:  #A126FB;
+        color: antiquewhite;
+        }
+    
+td {
+            border: 1px  solid black;
+            color: #A126FB;
+            border-collapse: collapse;
+            float:center;
+            }
+
+ #onerow {
+            background-color: #f8f9fa;
+            color: #A126FB;
+               }
+               
+
+#tworow {
+             background-color: #f8f9fa;
+             color: #A126FB;
+            }
+
+#threerow {
+            background-color: #f8f9fa;
+            color: #A126FB;
+               }            
+            
+ #fourrow {
+            background-color: #f8f9fa;
+            color: #A126FB;
+            }
+
+.tdtable {
+                text-align: center;
+                color: #A126FB;
+            }
+
+
+            
+    
         
           
     
